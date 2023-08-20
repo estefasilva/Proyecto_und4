@@ -1,0 +1,248 @@
+/*body*/
+body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    font-family: Apercu, sans-serif;
+    }
+/*menu*/
+.menu{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    font-family:sans-serif;
+    font-size:16px;
+    margin-right: 5px;
+    text-transform: uppercase;
+    height:100px;
+    background-color:#F29188 ;
+  }
+  #logo{
+    display:flex;
+    align-items: center;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  } 
+  .menu ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu ul li {
+    margin-right: 20px;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color:#59443C; 
+}
+  .menu button{ 
+    border-radius: 40px;
+    padding: 10px 15px;
+    border: none;
+    background-color: #A68C7C;
+    color: #fff;
+    font-size: 17px;
+    margin-left: -300px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+  /*header*/
+  header{
+    display: flex;
+    justify-content:center;
+    flex-direction:column;
+    height: 600px;
+    background-size: 30%;
+    background: url(https://res.cloudinary.com/ddhvkjig8/image/upload/v1692475921/Landing/mujer-cocinando-tableta_2_n9t6no.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-size: 50%;
+    background-color: #faf7f2;
+    padding: 150px;
+    width:90%;
+    height:auto;
+  }
+.cta button{
+    border-radius: 50px;
+    padding: 15px 20px;
+    border: none;
+    background-color: #F29188;
+    color: #fff;
+    font-size: 17px;
+    float: right;
+    margin-left: -50px;
+  }
+h3{
+    text-align: center;
+    color:#59443C ;
+    font-size: 60px;
+    margin-top:-100px;
+    margin-left:57%;
+  }
+P{
+    text-align: center;
+    margin-top:-30px;
+    margin-left:50%;
+  }
+  /*slider-galeria*/
+  #galeria{
+    color:#59443C ;
+    text-align: center;
+    font-size: 50px;
+    margin-top: -40px;
+  }
+  .swiper {
+    background-color: #A68C7C;
+    width: 100%;
+  }
+  .slide{
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+  }
+  /*testimonios*/
+  hr{
+    border-color: #59443C;
+  }
+  #testimonios{
+    color:#59443C ;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 20px;
+  }
+  .parrafo1{
+    text-align: center;
+    color:#59443C ;
+  }
+  .testimonials_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+    font-family: 'Martel Sans', sans-serif;
+  }
+  
+  .testimonios {
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  .testimonios img {
+    width: 130px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    object-fit: cover;
+  }
+  .author {
+    font-style: italic;
+  }
+  /*cursos*/
+  #cursos{
+    color:#59443C ;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 20px;
+  }
+  .cursos_section{
+    font-family:arial;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+  }
+  .list-and-image{
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    margin-top: 0px;
+    text-align: center;
+    border: 3px solid #ccc;
+    outline: 2px solid #59443C;
+    border-color:#F29188;
+    border-radius: 10px;
+    float:left;
+  }
+  .list-and-image img{
+    width: 130px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    object-fit: cover;
+  }
+  /*inscripcion*/
+  #inscripcion{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height: 180px;
+  background:#A68C7C ;
+}
+
+#formulario{
+  font-size:20px;
+  font-family:sans-serif;
+  height:100px;
+  width:300px;
+  text-align:center;
+  padding-top:20px;
+  border: 1px solid black;
+}
+  /*footer*/
+  h5{
+    font-size: 20px;
+  }
+  footer {
+    background-color: #F29188;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-logo img {
+    width: 200px; 
+}
+
+.footer-social ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-social ul li {
+    margin: 5px 0;
+}
+
+.footer-social a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-payment img {
+    width: 50px; 
+    margin: 5px;
+}
+.footer-social img{
+    width: 30px; 
+    margin: 5px;
+}
